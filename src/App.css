@@ -1,0 +1,8 @@
+body {
+  background-color: #221F39 ;
+  padding: 10px;
+}
+
+.debug {
+  border: 1px solid red;
+}
