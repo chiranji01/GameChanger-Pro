@@ -1,0 +1,146 @@
+.userrole {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    width: 60%; 
+    background-image: url("/src/assets/logo-game-changer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.userrole form {
+    background-color: rgba(255, 255, 255, 0.104); 
+    max-width: 400px;
+    padding: 20px;
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    right: 200px; 
+}
+
+.userrole h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #f8f8f8;
+    text-align: center;
+}
+
+.formInput{
+    position: relative;
+}
+
+#login-btn  {
+    height: 50px;
+    width: 90%;
+    background-color: #2192ac;  
+    border: 1px solid #cacaca3c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 15px 0 10px 0;
+    transition: 0.5;
+    cursor: pointer;
+    position: absolute;
+    bottom: 55%;
+    left: 18px;
+}
+
+#login-btn:hover {
+    background-color: #347c7e;
+}
+
+#register-btn  {
+    height: 50px;
+    width: 90%;
+    background-color: #2192ac;   
+    border: 1px solid #cacaca3c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 15px 0 10px 0;
+    transition: 0.5;
+    cursor: pointer;
+    position: absolute;
+    bottom: 40%;
+    left: 18px;
+}
+
+#register-btn:hover {
+    background-color: #1a1a46;
+}
+
+.wline {
+    position: relative; 
+    height: 1px;
+    width: 100%;
+    margin: 40px 0; 
+    background-color: #d4d4d443;
+    top: 46%;
+}
+
+.wline::before {
+    content: "Or";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    padding: 0 15px;
+}
+
+.wgoogleImg {
+    background-image: url("/src/assets/google.jpg");
+    position: absolute;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    background-size: cover;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+.wgoogle {
+    position: relative;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: #222;
+    color: white;
+    border: 1px solid #cacaca3c;
+    height: 50px; 
+    width: 100%; 
+    margin-top: 70%; 
+    border-radius: 5px;
+    transition: all 0.35 ease;
+
+    &:hover {
+        background-color: #000;
+    }
+}
+
+
+  
+  
+  
+
+
+
+
+
+
